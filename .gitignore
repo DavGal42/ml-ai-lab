@@ -81,3 +81,7 @@ cython_debug/
 # OS
 .DS_Store
 Thumbs.db
+
+# MLflow
+mlflow.db
+mlruns/

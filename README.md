@@ -43,6 +43,9 @@ Traditional machine learning algorithms implemented using scikit-learn.
 ### `deep-learning/`
 Neural network implementations using PyTorch and TensorFlow.
 
+### `mlops/`
+End-to-end MLOps workflows, automation scripts, and infrastructure-related examples
+
 ### `projects/`
 Complete, well-documented projects suitable for demonstration or academic use.  
 Each project contains its own `README.md`.
