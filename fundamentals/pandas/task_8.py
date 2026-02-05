@@ -1,3 +1,11 @@
+"""
+- Load a CSV file (task_8_data.csv) into a Pandas DataFrame
+- Print the full DataFrame and the first 3 rows using .head()
+- Compute the mean of the "age" column and the maximum of the "score" column
+- Filter rows where "age" is greater than 25 and "score" is at least 88
+- Print the filtered DataFrame
+"""
+
 import pandas as pd
 
 df = pd.read_csv("data/task_8_data.csv")

@@ -1,3 +1,11 @@
+"""
+Create a Pandas DataFrame of random integers (4×3) and compute basic statistics for each column:
+- Sum
+- Mean
+- Standard deviation
+  Print the DataFrame and the computed statistics to practice column-wise operations.
+"""
+
 import pandas as pd
 import numpy as np
 

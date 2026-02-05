@@ -1,3 +1,10 @@
+"""
+Visualize the number of orders across different product categories using a bar chart.
+Store the category names and their corresponding order counts,
+then use Matplotlib to create a bar plot that clearly shows how orders are distributed among categories.
+Customize the chart with a title, axis labels, and rotated category labels for better readability.
+"""
+
 import matplotlib.pyplot as plt
 import numpy as np
 

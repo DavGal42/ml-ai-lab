@@ -1,3 +1,10 @@
+"""
+- Load the Iris dataset from scikit-learn
+- Select only the first two features from X
+- Print the shape of the new array and the first 5 rows
+- Compute column-wise statistics: mean, minimum, and maximum
+"""
+
 import numpy as np
 from sklearn.datasets import load_iris
 

@@ -1,3 +1,10 @@
+"""
+Create a Pandas Series of integers from 1 to 20 and filter values using conditions:
+- Extract only even numbers
+- From the even numbers, keep only those greater than 10
+- Print the original Series, the even numbers, and the filtered numbers
+"""
+
 import pandas as pd
 
 series = pd.Series(range(1, 21))

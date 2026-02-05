@@ -1,3 +1,11 @@
+"""
+- Load the Iris dataset from scikit-learn
+- Split it into training and test sets with stratification (stratify=y)
+- Print the mean and standard deviation of the training and test sets before scaling
+- Apply StandardScaler to both sets
+- Print the mean and standard deviation after scaling
+"""
+
 import numpy as np
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split

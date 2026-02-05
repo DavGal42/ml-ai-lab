@@ -1,3 +1,11 @@
+"""
+- Load the Iris dataset from scikit-learn
+- Split the features X and target y into training and test sets using train_test_split
+  * Test size: 20%
+  * Set a random seed (random_state=42) for reproducibility
+- Print the shapes of X_train, X_test, y_train, and y_test
+"""
+
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
 

@@ -1,3 +1,16 @@
+"""
+Predict diamond prices using Linear Regression with a full ML pipeline:
+- Load the diamonds dataset and select only numeric features
+- Split the data into training and test sets
+- Build a scikit-learn Pipeline including StandardScaler and LinearRegression
+- Train the pipeline on the training set and make predictions on the test set
+- Compute Mean Squared Error (MSE) and R² score
+- Create two plots:
+  * Actual vs Predicted prices
+  * Residuals vs Predicted values
+- Save both plots as PNG files
+"""
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt

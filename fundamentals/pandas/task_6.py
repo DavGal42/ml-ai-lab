@@ -1,3 +1,10 @@
+"""
+Create a 6×4 Pandas DataFrame of random integers between 1 and 50 and filter rows based on multiple conditions:
+- Column 'A' values greater than 25
+- Column 'C' values less than 20
+  Print both the original DataFrame and the filtered DataFrame.
+"""
+
 import pandas as pd
 import numpy as np
 

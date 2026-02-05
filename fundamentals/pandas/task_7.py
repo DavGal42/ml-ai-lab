@@ -1,3 +1,10 @@
+"""
+- Create a 5×3 Pandas DataFrame of random integers between 1 and 30
+- Compute row-wise totals and row-wise means and store them as new columns
+- Filter rows where the total is greater than 50
+- Print the original DataFrame and the filtered DataFrame
+"""
+
 import pandas as pd
 import numpy as np
 

@@ -1,3 +1,9 @@
+"""
+Visualize monthly sales and profit on the same chart to compare overall revenue with profitability trends.
+Store monthly sales and profit data, then use a bar chart to represent sales and a line chart to represent profit.
+Add a title, axis labels, and a legend to clearly distinguish between the two metrics.
+"""
+
 import matplotlib.pyplot as plt
 import numpy as np
 

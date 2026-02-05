@@ -1,3 +1,10 @@
+"""
+- Load the Iris dataset from scikit-learn
+- Extract features (X) and target (y) arrays
+- Print the feature names and target names
+- Print the shape of X and y
+"""
+
 from sklearn.datasets import load_iris
 
 iris = load_iris()

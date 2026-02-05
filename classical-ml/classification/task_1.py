@@ -1,3 +1,12 @@
+"""
+Compare the performance of a K-Nearest Neighbors (KNN) classifier on the Iris dataset with and without feature scaling:
+- Load the Iris dataset and split it into training and test sets
+- Train a KNN model without scaling and evaluate accuracy
+- Scale the features using StandardScaler
+- Train another KNN model on the scaled data and evaluate accuracy
+- Print both accuracies to observe the impact of scaling
+"""
+
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier

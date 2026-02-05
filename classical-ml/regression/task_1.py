@@ -1,3 +1,12 @@
+"""
+Train a Logistic Regression model on the Iris dataset and evaluate its performance:
+- Load the Iris dataset and split it into training and test sets
+- Initialize a LogisticRegression model (increase max_iter to ensure convergence)
+- Train the model on the training set
+- Make predictions on the test set
+- Compute and print the accuracy score
+"""
+
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression

@@ -1,3 +1,14 @@
+"""
+Train a Linear Regression model on the California Housing dataset and track the experiment using MLflow:
+- Load the dataset and split it into training and testing sets
+- Set an MLflow experiment
+- Start an MLflow run
+- Train a LinearRegression model and make predictions
+- Compute the Mean Squared Error (MSE) on the test set
+- Log model parameters (model_type, fit_intercept), metrics (mse), and the trained model to MLflow
+- Print the MSE to the console
+"""
+
 import mlflow
 import mlflow.sklearn
 from sklearn.datasets import fetch_california_housing

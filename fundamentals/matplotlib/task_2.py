@@ -1,3 +1,9 @@
+"""
+Compare the sales performance of two different products over a 7-day period using data visualization.
+Store the daily sales data for each product in NumPy arrays, then plot both datasets on the same line chart using different markers,
+colors, and labels. Add a title, axis labels, a legend, and a grid to make the comparison clear and easy to read.
+"""
+
 import matplotlib.pyplot as plt
 import numpy as np
 

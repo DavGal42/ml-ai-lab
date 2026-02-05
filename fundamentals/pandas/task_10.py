@@ -1,3 +1,14 @@
+"""
+- Load a CSV file (task_10_data.csv) into a Pandas DataFrame
+- Group the data by the "department" column
+- Compute the following aggregations for each group:
+  * Average salary (mean)
+  * Maximum salary (max)
+  * Employee count (count)
+- Sort the grouped results by average salary in descending order
+- Print the final result
+"""
+
 import pandas as pd
 
 df = pd.read_csv("data/task_10_data.csv")

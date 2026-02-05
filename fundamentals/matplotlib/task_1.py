@@ -1,3 +1,9 @@
+"""
+Create a simple data visualization using Matplotlib to show how sales change over a 7-day period.
+Use NumPy arrays to store the days and sales values, then plot a line chart with markers, axis labels,
+and a title to clearly display the trend over time.
+"""
+
 import matplotlib.pyplot as plt
 import numpy as np
 

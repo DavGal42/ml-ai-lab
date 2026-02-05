@@ -1,3 +1,11 @@
+"""
+Perform basic matrix operations using NumPy:
+- Define two matrices A (2×3) and B (3×2)
+- Compute the matrix multiplication A @ B
+- Compute the transpose of matrix A
+  Print the matrices and the results. This helps practice linear algebra operations commonly used in ML computations.
+"""
+
 import numpy as np
 
 A = np.array([

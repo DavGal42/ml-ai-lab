@@ -1,3 +1,9 @@
+"""
+Visualize the combined monthly sales of two products using a stacked bar chart.
+Store the monthly sales data for Product A and Product B, then plot a stacked bar chart where Product B is stacked on top of Product A.
+Add a title, axis labels, and a legend to clearly show each product’s contribution to total monthly sales.
+"""
+
 import matplotlib.pyplot as plt
 import numpy as np
 

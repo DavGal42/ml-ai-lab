@@ -1,3 +1,10 @@
+"""
+- Load the Iris dataset and get X (features) and y (target)
+- Convert X into a Pandas DataFrame with proper feature names
+- Add the target column (y) as "target"
+- Print the first 5 rows, shape, and column names of the DataFrame
+"""
+
 import pandas as pd
 from sklearn.datasets import load_iris
 

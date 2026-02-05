@@ -1,3 +1,10 @@
+"""
+Create a figure with multiple subplots to compare monthly sales trends of two different products.
+Store monthly sales data for Product A and Product B,
+then use Matplotlib subplots to display each product’s sales in a separate line chart within the same figure.
+Add titles, axis labels, grids, and an overall figure title to clearly present the comparison.
+"""
+
 import matplotlib.pyplot as plt
 import numpy as np
 

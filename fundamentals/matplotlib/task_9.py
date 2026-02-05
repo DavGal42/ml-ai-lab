@@ -1,3 +1,9 @@
+"""
+Visualize training and validation loss over multiple epochs to monitor model performance.
+Store the loss values for training and validation, then create subplots to show each curve separately.
+Add titles, axis labels, grids, an overall figure title, and save the figure as a high-resolution PNG file.
+"""
+
 import matplotlib.pyplot as plt
 import numpy as np
 

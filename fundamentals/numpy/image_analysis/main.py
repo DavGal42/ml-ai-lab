@@ -1,3 +1,10 @@
+"""
+Convert a color image to grayscale and visualize both the original and grayscale images side by side.
+Load the image using PIL, convert it to a NumPy array,
+compute the grayscale values using the standard luminance formula (0.299 R + 0.587 G + 0.114 B),
+and then plot both images using Matplotlib with appropriate titles.
+"""
+
 import numpy as np
 from PIL import Image
 import matplotlib.pyplot as plt

@@ -1,3 +1,11 @@
+"""
+- Load the Iris dataset from scikit-learn
+- Split the dataset into training and test sets using train_test_split with stratification (stratify=y)
+  * Test size: 20%
+  * Set a random seed (random_state=42)
+- Print the class counts in the training and test sets to verify the stratification
+"""
+
 import numpy as np
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split

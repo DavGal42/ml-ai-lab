@@ -1,3 +1,9 @@
+"""
+Visualize how total sales are distributed across different product categories using a pie chart.
+Store the sales values and category labels, then create a pie chart that shows each category’s percentage contribution to total sales.
+Highlight the largest category using an exploded slice and customize the chart with colors and percentage labels.
+"""
+
 import matplotlib.pyplot as plt
 import numpy as np
 
