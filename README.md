@@ -22,6 +22,7 @@ The focus is on understanding fundamentals, experimenting freely, and gradually 
 - **PyTorch**
 - **TensorFlow / Keras**
 - **Jupyter Notebook**
+- **MLFlow**
 
 ---
 
@@ -30,12 +31,6 @@ The focus is on understanding fundamentals, experimenting freely, and gradually 
 ### `fundamentals/`
 Core concepts and basic usage of essential libraries.  
 Focus: correctness, clarity, and understanding.
-
-### `data/`
-Datasets used across experiments and projects.
-- `raw/` – original, untouched data
-- `processed/` – cleaned and transformed data
-- `synthetic/` – generated data for testing
 
 ### `classical-ml/`
 Traditional machine learning algorithms implemented using scikit-learn.
@@ -52,6 +47,12 @@ Each project contains its own `README.md`.
 
 ### `utils/`
 Reusable helper functions shared across the repository.
+
+### `data/`
+Datasets used across experiments and projects.
+- `raw/` – original, untouched data
+- `processed/` – cleaned and transformed data
+- `synthetic/` – generated data for testing
 
 ### `docs/`
 Conceptual explanations, learning notes, and long-term plans.

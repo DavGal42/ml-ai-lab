@@ -21,7 +21,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import Pipeline
 
-df = pd.read_csv("../../data/raw/diamonds.csv")
+df = pd.read_csv("../../data/synthetic/diamonds.csv")
 
 numeric_df = df.select_dtypes(include=np.number)
 
