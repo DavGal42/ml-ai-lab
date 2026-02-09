@@ -50,6 +50,7 @@ Reusable helper functions shared across the repository.
 
 ### `data/`
 Datasets used across experiments and projects.
+- `kaggle/` – datasets from Kaggle
 - `raw/` – original, untouched data
 - `processed/` – cleaned and transformed data
 - `synthetic/` – generated data for testing
