@@ -21,12 +21,14 @@ from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import Pipeline
 
-df = pd.read_csv("../../data/kaggle/diamonds.csv")
+df = pd.read_csv("../../../../data/kaggle/diamonds.csv")
 
 numeric_df = df.select_dtypes(include=np.number)
 
 X = numeric_df.drop("price", axis=1)
 y = numeric_df["price"]
+
+print(X.head())
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
